@@ -159,7 +159,7 @@ void setup() {
   display.drawString(0, 00, "TTGO LoRa32 V2.0 P2P");
   display.display();
 
-  SPI.begin(SX1278_SCK, SX1278_MISO, SX1278_MOSI, SX1278_CS);
+  //SPI.begin(SX1278_SCK, SX1278_MISO, SX1278_MOSI, SX1278_CS);
   // override the default CS, reset, and IRQ pins (optional)
   LoRa.setPins(SX1278_CS, SX1278_RST, SX1278_DI0);// set CS, reset, IRQ pin
 
